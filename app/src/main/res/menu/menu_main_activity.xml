@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search_devices"
+        android:icon="@drawable/ic_bluetooth_searching"
+        app:showAsAction="always"
+        android:title="@string/str_menu_search_devices"/>
+
+    <item
+        android:id="@+id/menu_enable_bluetooth"
+        android:icon="@drawable/ic_bluetooth"
+        app:showAsAction="always"
+        android:title="@string/str_menu_bluetooth_on"/>
+    <item
+        android:id="@+id/menu_set_API_KEY"
+        android:icon="@drawable/ic_select_api_key"
+        app:showAsAction="always"
+        android:title="@string/str_menu_api_key"/>
+
+</menu>
